@@ -1,0 +1,22 @@
+@import url(./normalize.css);
+
+$primary-f_color: #000;
+$secondary-f_color: #c0c0c0;
+$primary-f_size: 16px;
+
+:root {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+  color: $primary-f_color;
+	font-size: $primary-f_size;
+}
+
+#app {
+	padding: 16px;
+}
+
+em {
+	color: $secondary-f_color;
+}
